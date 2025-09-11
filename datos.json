@@ -1,0 +1,29 @@
+{
+    "vehiculos": [
+        "Caminando",
+        "Carro",
+        "Ruta 601 Obelisco",
+        "Ruta 601 Troncal",
+        "Ruta 107",
+        "Linea 1",
+        "Linea 2",
+        "Linea 3"
+    ],
+    "puntos_intermedios": [
+        {
+            "nombre": "Ninguno",
+            "coordenadas": {
+                "latitud": 0,
+                "longitud": 0
+            }
+        },
+        {
+            "nombre": "P. Urbivilla",
+            "coordenadas": {
+                "latitud": 25.782769575409496,
+                "longitud": -100.59048491047204
+            }
+        }
+    ],
+    "datos guardados": []
+}
