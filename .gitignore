@@ -1,5 +1,5 @@
 # Archivos de credenciales y secretos
-App/client_secret_*.json
+App/client_secret_742107307448-9o7aiqsd8vtbqdjnnj5f6f7b814f80bv.apps.googleusercontent.com.json
 App/llave_de_release.keystore
 App/token.json
 App/datos.json
@@ -8,6 +8,7 @@ App/datos.json
 venv_Transporte/
 APK's/
 App/.buildozer/
+App/bin
 
 # Archivos de caché y de sistema operativo
 .DS_Store
