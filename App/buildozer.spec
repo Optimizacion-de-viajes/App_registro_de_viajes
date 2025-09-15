@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Recabador_de_datos
+title = Pre-Ruta Euler
 
 # (str) Package name
 package.name = recabador.optimizaciondeviajes
@@ -13,7 +13,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,json
+source.include_exts = py,png,jpg,kv,json
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -29,7 +29,7 @@ source.include_exts = py,png,jpg,kv,atlas,json
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 0.1.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,pyjnius,kivymd,zlib,json,datetime
+requirements = python3, kivy, kivymd, google-api-python-client, google-auth, google-auth-oauthlib, jnius
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -313,7 +313,7 @@ android.allow_backup = True
 #
 # Python for android (p4a) specific
 #
-p4a.python_version = 3.9
+
 # (str) python-for-android URL to use for checkout
 #p4a.url =
 
@@ -407,8 +407,6 @@ log_level = 2
 # (int) Display warning if buildozer is run as root (0 = False, 1 = True)
 warn_on_root = 1
 
-
-p4a.source.pyjnius = https://github.com/kivy/pyjnius/archive/refs/tags/1.5.0.zip
 # (str) Path to build artifact storage, absolute or relative to spec file
 # build_dir = ./.buildozer
 

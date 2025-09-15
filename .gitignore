@@ -1,0 +1,16 @@
+# Archivos de credenciales y secretos
+App/client_secret_*.json
+App/llave_de_release.keystore
+App/token.json
+App/datos.json
+
+# Directorios de entorno virtual y compilación
+venv_Transporte/
+APK's/
+App/.buildozer/
+
+# Archivos de caché y de sistema operativo
+.DS_Store
+
+# Archivos de build y paquetes
+App/llave_de_release.keystore
