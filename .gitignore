@@ -10,8 +10,9 @@ APK's/
 App/.buildozer/
 App/bin
 
+# Archivos de build y paquetes
+App/llave_de_release.keystore
+
 # Archivos de caché y de sistema operativo
 .DS_Store
 
-# Archivos de build y paquetes
-App/llave_de_release.keystore
